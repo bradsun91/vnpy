@@ -1176,7 +1176,7 @@ class GlobalDialog(QtWidgets.QDialog):
     def init_ui(self) -> None:
         """"""
         self.setWindowTitle("全局配置")
-        self.setMinimumWidth(800)
+        self.setMinimumWidth(400)# 原来是800
 
         settings = copy(SETTINGS)
         settings.update(load_json(SETTING_FILENAME))

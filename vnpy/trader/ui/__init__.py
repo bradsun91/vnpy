@@ -18,7 +18,7 @@ def create_qapp(app_name: str = "VN Trader") -> QtWidgets.QApplication:
     Create Qt Application.
     """
     # High DPI support
-    QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling)
+    # QtWidgets.QApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling)
 
     # Set up dark stylesheet
     qapp = QtWidgets.QApplication(sys.argv)
